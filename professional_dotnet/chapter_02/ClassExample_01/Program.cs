@@ -1,5 +1,4 @@
 ﻿// Program for creating a simple class in C# with Visual Studio
-
 // Programmer:Srushti Battise
 
 // Defining a class named Car
@@ -16,7 +15,7 @@ public class Car
     public void Drive()
     {
         //This method will print a message when called
-        Console.WriteLine("The car is Driving at speed" + "speed" + "km/h");
+        Console.WriteLine("The car is Driving at speed " + speed + " km/h.");
     }
 }
 

@@ -19,7 +19,7 @@ public class Person
     //Method:CALL TO SHOW PERSON'S DETAILS
     public void greet()
     {
-        Console.WriteLine("Hello,I am " + "name" + "age" + "years old.");
+        Console.WriteLine("Hello,I am " + name +" " +age + " years old.");
     }
 }
 
