@@ -27,6 +27,8 @@ namespace ClassExample_01
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Program for creating a simple class in C# with Visual Studio\n");
+
             //Create an Object of the Car class
             Car myCar = new Car();
             //This is like building a new robot from the blueprint

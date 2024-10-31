@@ -40,7 +40,7 @@ namespace ClassWithMultipleMethods_01
     {
         public static void Main(string[] args)
         {
-            
+           
 
             // Creating an object named "myCalculator" using the class "Calculator"
             Calculator myCalculator = new Calculator();

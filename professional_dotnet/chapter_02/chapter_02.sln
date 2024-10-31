@@ -7,11 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassExample_01", "ClassExa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWithConstructor_01", "ClassWithConstructor_01\ClassWithConstructor_01.csproj", "{9EB83221-22BA-4F36-B22B-1789B43D7B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWithMultipleMethods_01", "ClassWithMultipleMethods_01\ClassWithMultipleMethods_01.csproj", "{0D68A97F-A4E3-4A31-9601-E5677162139B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWithMultipleMethods_01", "ClassWithMultipleMethods_01\ClassWithMultipleMethods_01.csproj", "{0D68A97F-A4E3-4A31-9601-E5677162139B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWithProperties_01", "ClassWithProperties_01\ClassWithProperties_01.csproj", "{EDD7E37A-FC79-4866-9235-8E61A83437DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWithProperties_01", "ClassWithProperties_01\ClassWithProperties_01.csproj", "{EDD7E37A-FC79-4866-9235-8E61A83437DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassInheritance_01", "ClassInheritance_01\ClassInheritance_01.csproj", "{AB151F7D-5203-45B3-8559-E72E5B7DF7BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassInheritance_01", "ClassInheritance_01\ClassInheritance_01.csproj", "{AB151F7D-5203-45B3-8559-E72E5B7DF7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUsageOfNullableTypes_01", "BasicUsageOfNullableTypes_01\BasicUsageOfNullableTypes_01.csproj", "{E492C096-37A4-4FBF-8AE0-2300BC1D1798}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingNull-CoalescingOperator_01", "UsingNull-CoalescingOperator_01\UsingNull-CoalescingOperator_01.csproj", "{8DA0637B-44A0-47EA-A86C-4F2559A7E35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingGetValueOrDefault()Method_01", "UsingGetValueOrDefault()Method_01\UsingGetValueOrDefault()Method_01.csproj", "{7AFA26C0-82D2-4448-8FDC-AD85BB987E32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{AB151F7D-5203-45B3-8559-E72E5B7DF7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB151F7D-5203-45B3-8559-E72E5B7DF7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB151F7D-5203-45B3-8559-E72E5B7DF7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E492C096-37A4-4FBF-8AE0-2300BC1D1798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E492C096-37A4-4FBF-8AE0-2300BC1D1798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E492C096-37A4-4FBF-8AE0-2300BC1D1798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E492C096-37A4-4FBF-8AE0-2300BC1D1798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA0637B-44A0-47EA-A86C-4F2559A7E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA0637B-44A0-47EA-A86C-4F2559A7E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA0637B-44A0-47EA-A86C-4F2559A7E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA0637B-44A0-47EA-A86C-4F2559A7E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFA26C0-82D2-4448-8FDC-AD85BB987E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFA26C0-82D2-4448-8FDC-AD85BB987E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFA26C0-82D2-4448-8FDC-AD85BB987E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFA26C0-82D2-4448-8FDC-AD85BB987E32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
