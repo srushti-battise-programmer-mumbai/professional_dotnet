@@ -1,12 +1,8 @@
 ﻿// Program to create Using With Expression For NonDestructive Mutation in C# using Visual Studio
-
 // Programmer: Srushti Battise
-
-
 
 namespace UsingWithExpressionForNonDestructiveMutation_01
 {
-    
     public class Program
     {
        public static void Main(string[] args)
@@ -22,8 +18,6 @@ namespace UsingWithExpressionForNonDestructiveMutation_01
             Console.WriteLine(student1);
             // Output: Student { Name = Srushti, Major = Mathematics }
             Console.WriteLine(student2);
-
-           
         }
     }
 }

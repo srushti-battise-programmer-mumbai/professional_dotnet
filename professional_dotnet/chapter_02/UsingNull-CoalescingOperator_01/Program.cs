@@ -1,5 +1,4 @@
-﻿// Program to   Using Null_Coalescing Operator(??) in C# with Visual Studio
-
+﻿// Program to Using Null_Coalescing Operator(??) in C# with Visual Studio
 // Programmer:Srushti Battise
 
 namespace UsingNull_CoalescingOperator_01
@@ -8,10 +7,10 @@ namespace UsingNull_CoalescingOperator_01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Program to   Using Null_Coalescing Operator(??) in C# with Visual Studio\n");
+            Console.WriteLine("Program to Using Null_Coalescing Operator(??) in C# with Visual Studio\n");
 
             // Nullable double declared and initialized with null.
-            double? myNullableDouble=null;
+            double? myNullableDouble = null;
 
             // Using the null-coalescing operator (??) to provide a default value.
             // If 'myNullableDouble' is null, 3.14 will be assigned to 'result'.

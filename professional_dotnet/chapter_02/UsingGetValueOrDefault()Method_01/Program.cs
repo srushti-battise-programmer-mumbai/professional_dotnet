@@ -1,4 +1,4 @@
-﻿// Program to Using Get Value Or Default () Method in C# with Visual Studio
+﻿// Program to Using GetValueOrDefault() Method in C# with Visual Studio
 // Programmer:Srushti Battise
 
 namespace UsingGetValueOrDefault__Method_01
@@ -7,7 +7,7 @@ namespace UsingGetValueOrDefault__Method_01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Program to Using Get Value Or Default Method in C# with Visual Studio\n");
+            Console.WriteLine("Program to Using GetValueOrDefault() in C# with Visual Studio\n");
 
             // Declaring a nullable float variable.
             float? myNullableFloat = null;
