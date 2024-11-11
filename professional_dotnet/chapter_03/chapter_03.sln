@@ -65,9 +65,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleInCollection_01", "Tup
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleInLINQQuery_01", "TupleInLINQQuery_01\TupleInLINQQuery_01.csproj", "{B32D91E2-7B2B-411E-9E4F-35FB6A5337A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleReturningMultipleValuesFromMethod_01", "TupleReturningMultipleValuesFromMethod_01\TupleReturningMultipleValuesFromMethod_01.csproj", "{D0802430-B3EA-4BBA-96D8-B7D425750100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleReturningMultipleValuesFromMethod_01", "TupleReturningMultipleValuesFromMethod_01\TupleReturningMultipleValuesFromMethod_01.csproj", "{D0802430-B3EA-4BBA-96D8-B7D425750100}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTuplesForComplexData_01", "NestedTuplesForComplexData_01\NestedTuplesForComplexData_01.csproj", "{5D4C4092-878A-4B2B-9E49-66108A4D6DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedTuplesForComplexData_01", "NestedTuplesForComplexData_01\NestedTuplesForComplexData_01.csproj", "{5D4C4092-878A-4B2B-9E49-66108A4D6DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicFunctionWithParametersAndReturnType_01", "BasicFunctionWithParametersAndReturnType_01\BasicFunctionWithParametersAndReturnType_01.csproj", "{FAE9A288-08C0-4F88-A7B8-D0DBF064A81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingFunctionsWithDifferentParameters_01", "OverloadingFunctionsWithDifferentParameters_01\OverloadingFunctionsWithDifferentParameters_01.csproj", "{54F83190-0CEB-4A7B-BE33-8229E57883FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionWithRefParameter_01", "FunctionWithRefParameter_01\FunctionWithRefParameter_01.csproj", "{B41C5877-6C2D-44F2-AED9-71EBE6F9E349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionWithOutParameter_01", "FunctionWithOutParameter_01\FunctionWithOutParameter_01.csproj", "{697F2FBB-2603-43B3-A501-B4A942079F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFunction_01", "RecursiveFunction_01\RecursiveFunction_01.csproj", "{5F8FEF3D-8F53-463C-A3E1-FBEEC53F810E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionAsFunction_01", "LambdaExpressionAsFunction_01\LambdaExpressionAsFunction_01.csproj", "{2C8CE0B9-C55A-48D4-B8F2-423A09D28CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethodAsFunction_01", "AnonymousMethodAsFunction_01\AnonymousMethodAsFunction_01.csproj", "{158A4ED9-F53B-49D8-8F96-2D990E21A479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HigherOrderFunction_01", "HigherOrderFunction_01\HigherOrderFunction_01.csproj", "{20E0CABC-EC21-4E09-836B-0B31BF819515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReturningFunctionFromFunction_01", "ReturningFunctionFromFunction_01\ReturningFunctionFromFunction_01.csproj", "{029A022B-41A5-4E49-B191-81D40A6C8BFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +225,42 @@ Global
 		{5D4C4092-878A-4B2B-9E49-66108A4D6DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4C4092-878A-4B2B-9E49-66108A4D6DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4C4092-878A-4B2B-9E49-66108A4D6DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE9A288-08C0-4F88-A7B8-D0DBF064A81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE9A288-08C0-4F88-A7B8-D0DBF064A81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE9A288-08C0-4F88-A7B8-D0DBF064A81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE9A288-08C0-4F88-A7B8-D0DBF064A81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F83190-0CEB-4A7B-BE33-8229E57883FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F83190-0CEB-4A7B-BE33-8229E57883FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F83190-0CEB-4A7B-BE33-8229E57883FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F83190-0CEB-4A7B-BE33-8229E57883FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41C5877-6C2D-44F2-AED9-71EBE6F9E349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41C5877-6C2D-44F2-AED9-71EBE6F9E349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41C5877-6C2D-44F2-AED9-71EBE6F9E349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41C5877-6C2D-44F2-AED9-71EBE6F9E349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697F2FBB-2603-43B3-A501-B4A942079F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697F2FBB-2603-43B3-A501-B4A942079F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697F2FBB-2603-43B3-A501-B4A942079F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697F2FBB-2603-43B3-A501-B4A942079F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8FEF3D-8F53-463C-A3E1-FBEEC53F810E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8FEF3D-8F53-463C-A3E1-FBEEC53F810E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8FEF3D-8F53-463C-A3E1-FBEEC53F810E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8FEF3D-8F53-463C-A3E1-FBEEC53F810E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8CE0B9-C55A-48D4-B8F2-423A09D28CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8CE0B9-C55A-48D4-B8F2-423A09D28CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8CE0B9-C55A-48D4-B8F2-423A09D28CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8CE0B9-C55A-48D4-B8F2-423A09D28CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158A4ED9-F53B-49D8-8F96-2D990E21A479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158A4ED9-F53B-49D8-8F96-2D990E21A479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158A4ED9-F53B-49D8-8F96-2D990E21A479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158A4ED9-F53B-49D8-8F96-2D990E21A479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E0CABC-EC21-4E09-836B-0B31BF819515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E0CABC-EC21-4E09-836B-0B31BF819515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E0CABC-EC21-4E09-836B-0B31BF819515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E0CABC-EC21-4E09-836B-0B31BF819515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029A022B-41A5-4E49-B191-81D40A6C8BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A022B-41A5-4E49-B191-81D40A6C8BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029A022B-41A5-4E49-B191-81D40A6C8BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029A022B-41A5-4E49-B191-81D40A6C8BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
