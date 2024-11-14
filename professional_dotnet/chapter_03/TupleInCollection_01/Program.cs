@@ -9,17 +9,17 @@ namespace TupleInCollection_01
         {
             Console.WriteLine("Program for Tuple In Collectionin C# using Visual Studio\n");
             // Create a list of tuples to hold employee data.
-            List<(int Id, string Name)> employees = new List<(int Id, string Name)>
-{
+            List<(int Id, string Name)> employees_list_of_tuples = new List<(int Id, string Name)>
+            {
                 (101,"Bob"),
                 (102,"Charlie"),
                 (103,"Alice")
             };
-            // Iterate through each tuple in the list and print the details.
-            foreach (var employee in employees)
+            // Iterate/traverse through each element of the tuples list and print the same.
+            
+            foreach (var current_employee in employees_list_of_tuples)
             {
-                Console.WriteLine($"ID:{employee.Id},Name:{employee.Name}");
-
+                Console.WriteLine($"ID:{current_employee.Id},Name:{current_employee.Name}");
             }
 
         }

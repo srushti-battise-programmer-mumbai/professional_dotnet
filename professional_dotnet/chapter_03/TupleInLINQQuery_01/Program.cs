@@ -1,4 +1,4 @@
-﻿// Program for Tuple In Collection in C# using Visual Studio
+﻿// Program to demonstrate use of Tuple In LINQ Query in C# using Visual Studio
 // Programmer: Srushti Battise
 
 namespace TupleInLINQQuery_01
@@ -7,7 +7,7 @@ namespace TupleInLINQQuery_01
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Program for Tuple In Collection in C# using Visual Studio\n");
+            Console.WriteLine("Program to demonstrate use of Tuple In LINQ Query in C# using Visual Studio\n");
 
             // Array of numbers
             int[] numbers = { 1, 2, 3, 4, 5 };
