@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingNullableTypesinConditi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypesAndMethods_01", "NullableTypesAndMethods_01\NullableTypesAndMethods_01.csproj", "{39B18766-F5EA-4218-89B7-1039EF27198A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries_01", "FibonacciSeries_01\FibonacciSeries_01.csproj", "{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeries_01", "FibonacciSeries_01\FibonacciSeries_01.csproj", "{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance -OneClassInheritingfromAnother_01", "Inheritance -OneClassInheritingfromAnother_01\Inheritance -OneClassInheritingfromAnother_01.csproj", "{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWithProperties(Advanced Fields)_01", "ClassWithProperties(Advanced Fields)_01\ClassWithProperties(Advanced Fields)_01.csproj", "{38F609B0-39C1-42CD-8BC1-764AF79254E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F609B0-39C1-42CD-8BC1-764AF79254E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F609B0-39C1-42CD-8BC1-764AF79254E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F609B0-39C1-42CD-8BC1-764AF79254E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F609B0-39C1-42CD-8BC1-764AF79254E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
