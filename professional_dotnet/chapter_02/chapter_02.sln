@@ -25,20 +25,32 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypesAndMethods_01"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeries_01", "FibonacciSeries_01\FibonacciSeries_01.csproj", "{9E1DF2F7-53EC-4044-A5D9-3AA134FEAAA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance -OneClassInheritingfromAnother_01", "Inheritance -OneClassInheritingfromAnother_01\Inheritance -OneClassInheritingfromAnother_01.csproj", "{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance -OneClassInheritingfromAnother_01", "Inheritance -OneClassInheritingfromAnother_01\Inheritance -OneClassInheritingfromAnother_01.csproj", "{D9A23823-9CEF-4B9E-91AA-40CE74D9FC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWithProperties(Advanced Fields)_01", "ClassWithProperties(Advanced Fields)_01\ClassWithProperties(Advanced Fields)_01.csproj", "{38F609B0-39C1-42CD-8BC1-764AF79254E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassWithProperties(Advanced Fields)_01", "ClassWithProperties(Advanced Fields)_01\ClassWithProperties(Advanced Fields)_01.csproj", "{38F609B0-39C1-42CD-8BC1-764AF79254E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageInArray_01", "AverageInArray_01\AverageInArray_01.csproj", "{BB24F16B-4900-4030-B296-A9CB21E7723C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AverageInArray_01", "AverageInArray_01\AverageInArray_01.csproj", "{BB24F16B-4900-4030-B296-A9CB21E7723C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxArray_01", "MinMaxArray_01\MinMaxArray_01.csproj", "{C6EE0EF5-B665-432C-8C0B-2C0FAB9EF762}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxArray_01", "MinMaxArray_01\MinMaxArray_01.csproj", "{C6EE0EF5-B665-432C-8C0B-2C0FAB9EF762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeCheck_01", "PalindromeCheck_01\PalindromeCheck_01.csproj", "{89919DD0-D0AE-47BA-9336-14B168C4E0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeCheck_01", "PalindromeCheck_01\PalindromeCheck_01.csproj", "{89919DD0-D0AE-47BA-9336-14B168C4E0B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3B28943-2DBB-417A-9C00-E3CEA04DDE9E}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse_01", "Reverse_01\Reverse_01.csproj", "{C9E7D65C-3BF3-451B-82A1-664097E036F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConditionalStatements_01", "ConditionalStatements_01\ConditionalStatements_01.csproj", "{698BBE25-71BE-4FE3-8B67-66F49B2AEF29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapNumbersWithoutThirdVariable_01", "SwapNumbersWithoutThirdVariable_01\SwapNumbersWithoutThirdVariable_01.csproj", "{DD1C9D0E-34C2-42AA-B428-BDD3AE963B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfDigits_01", "SumOfDigits_01\SumOfDigits_01.csproj", "{AB0723BE-9B9B-42B8-BA3A-64A9B6490A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversingMultiDimensionalArray", "TraversingMultiDimensionalArray\TraversingMultiDimensionalArray.csproj", "{ED3BB969-66C8-4FDE-B17E-D5B9536799DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueCharacterOccurrences_01", "UniqueCharacterOccurrences_01\UniqueCharacterOccurrences_01.csproj", "{24CFAF65-677F-4598-AB7D-92F76404C57E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +122,30 @@ Global
 		{89919DD0-D0AE-47BA-9336-14B168C4E0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89919DD0-D0AE-47BA-9336-14B168C4E0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89919DD0-D0AE-47BA-9336-14B168C4E0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E7D65C-3BF3-451B-82A1-664097E036F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E7D65C-3BF3-451B-82A1-664097E036F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E7D65C-3BF3-451B-82A1-664097E036F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E7D65C-3BF3-451B-82A1-664097E036F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698BBE25-71BE-4FE3-8B67-66F49B2AEF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698BBE25-71BE-4FE3-8B67-66F49B2AEF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698BBE25-71BE-4FE3-8B67-66F49B2AEF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698BBE25-71BE-4FE3-8B67-66F49B2AEF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1C9D0E-34C2-42AA-B428-BDD3AE963B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1C9D0E-34C2-42AA-B428-BDD3AE963B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1C9D0E-34C2-42AA-B428-BDD3AE963B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1C9D0E-34C2-42AA-B428-BDD3AE963B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0723BE-9B9B-42B8-BA3A-64A9B6490A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0723BE-9B9B-42B8-BA3A-64A9B6490A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0723BE-9B9B-42B8-BA3A-64A9B6490A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0723BE-9B9B-42B8-BA3A-64A9B6490A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3BB969-66C8-4FDE-B17E-D5B9536799DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3BB969-66C8-4FDE-B17E-D5B9536799DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3BB969-66C8-4FDE-B17E-D5B9536799DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3BB969-66C8-4FDE-B17E-D5B9536799DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CFAF65-677F-4598-AB7D-92F76404C57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CFAF65-677F-4598-AB7D-92F76404C57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CFAF65-677F-4598-AB7D-92F76404C57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CFAF65-677F-4598-AB7D-92F76404C57E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
