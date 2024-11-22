@@ -1,25 +1,24 @@
 ﻿// Program to demonstrate Method Overriding using C# in Visual Studio
 // Programmer:Srushti Battise
 
-public class Animal
-{
-    public virtual void Sound()
-    {
-        Console.WriteLine("Animal makes a sound.");
-    }
-}
-
-// Derived class
-public class Cat : Animal
-{
-    public override void Sound()
-    {
-        Console.WriteLine("The cat says: Meow");
-    }
-}
-
 namespace MethodOverriding_01
 {
+    public class Animal
+    {
+        public virtual void Sound()
+        {
+            Console.WriteLine("Animal makes a sound.");
+        }
+    }
+
+    // Derived class
+    public class Cat : Animal
+    {
+        public override void Sound()
+        {
+            Console.WriteLine("The cat says: Meow");
+        }
+    }
 
     public class Program
     {

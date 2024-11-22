@@ -1,31 +1,32 @@
 ﻿// Program to create Inheritance with Constructor using C# in Visual Studio
 // Programmer:Srushti Battise
 
-// Base class
-public class Vehicle
+
+
+namespace InheritanceWithConstructor_01
 {
-    public string Brand;
-
-    // Constructor 
-    public Vehicle(string brand)
-    
+    // Base class
+    public class Vehicle
     {
-        Brand = brand;
-    }
+        public string Brand;
 
-    public void ShowBrand()
+        // Constructor 
+        public Vehicle(string brand)
+
+        {
+            Brand = brand;
+        }
+
+        public void ShowBrand()
+        {
+            Console.WriteLine("Vehicle Brand:" + Brand);
+        }
+    }
+    //Derived Class
+    public class Car : Vehicle
     {
-        Console.WriteLine("Vehicle Brand:" + Brand);
+        public Car(string brand) : base(brand) { }
     }
-}
-//Derived Class
-public class Car : Vehicle
-{
-    public Car(string brand) : base(brand) { }
-}
-
-namespace InheritanceWithConstructor_01 { }
-
     public class Program
     {
         public static void Main(string[] args)
@@ -37,4 +38,7 @@ namespace InheritanceWithConstructor_01 { }
             myCar.ShowBrand();
         }
     }
+}
+
+
 

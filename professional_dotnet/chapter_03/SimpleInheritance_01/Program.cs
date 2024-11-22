@@ -1,22 +1,25 @@
-﻿// Base class
-public class Animal
-{
-    public void Eat()
-    {
-        Console.WriteLine("This animal is eating.");
-    }
-}
+﻿
 
-// Derived class
-public class Dog : Animal
+namespace SimpleInheritance_01
 {
-    public void Bark()
+    // Base class
+    public class Animal
     {
-        Console.WriteLine("The dog is barking.");
+        public void Eat()
+        {
+            Console.WriteLine("This animal is eating.");
+        }
     }
-}
 
-namespace SimpleInheritance_01 {
+    // Derived class
+    public class Dog : Animal
+    {
+        public void Bark()
+        {
+            Console.WriteLine("The dog is barking.");
+        }
+    }
+
     public class Program
     {
         public static void Main(string[] args)
