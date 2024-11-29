@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic2DArrayForStoringMatrix_01", "Basic2DArrayForStoringMatrix_01\Basic2DArrayForStoringMatrix_01.csproj", "{C7141D90-9A4C-4A61-A730-632E69029502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicArrayCreationAndSorting_01", "BasicArrayCreationAndSorting_01\BasicArrayCreationAndSorting_01.csproj", "{955D9B4D-3E6A-4F27-9E77-62B844676C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InitializingAndManipulating3D_Array_01", "InitializingAndManipulating3D_Array_01\InitializingAndManipulating3D_Array_01.csproj", "{7E6BC9A8-7A79-4364-A292-FBDBA345740A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationOfTwoMatrices_01", "MultiplicationOfTwoMatrices_01\MultiplicationOfTwoMatrices_01.csproj", "{399E99B3-6F52-4776-A18D-FB8DD5522975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummingAllElementsIn2DArray_01", "SummingAllElementsIn2DArray_01\SummingAllElementsIn2DArray_01.csproj", "{DC15F813-A7FC-4B68-865A-F869208ECA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransposingA2DMatrix_01", "TransposingA2DMatrix_01\TransposingA2DMatrix_01.csproj", "{BE48C994-E8A1-4F10-8305-B95A4F41E067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7141D90-9A4C-4A61-A730-632E69029502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7141D90-9A4C-4A61-A730-632E69029502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7141D90-9A4C-4A61-A730-632E69029502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7141D90-9A4C-4A61-A730-632E69029502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955D9B4D-3E6A-4F27-9E77-62B844676C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955D9B4D-3E6A-4F27-9E77-62B844676C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955D9B4D-3E6A-4F27-9E77-62B844676C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955D9B4D-3E6A-4F27-9E77-62B844676C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6BC9A8-7A79-4364-A292-FBDBA345740A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6BC9A8-7A79-4364-A292-FBDBA345740A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6BC9A8-7A79-4364-A292-FBDBA345740A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6BC9A8-7A79-4364-A292-FBDBA345740A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399E99B3-6F52-4776-A18D-FB8DD5522975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399E99B3-6F52-4776-A18D-FB8DD5522975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399E99B3-6F52-4776-A18D-FB8DD5522975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399E99B3-6F52-4776-A18D-FB8DD5522975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC15F813-A7FC-4B68-865A-F869208ECA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC15F813-A7FC-4B68-865A-F869208ECA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC15F813-A7FC-4B68-865A-F869208ECA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC15F813-A7FC-4B68-865A-F869208ECA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE48C994-E8A1-4F10-8305-B95A4F41E067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE48C994-E8A1-4F10-8305-B95A4F41E067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE48C994-E8A1-4F10-8305-B95A4F41E067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE48C994-E8A1-4F10-8305-B95A4F41E067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {691918A1-322B-4828-8CC6-7A0AC58A3BF8}
+	EndGlobalSection
+EndGlobal
